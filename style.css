@@ -91,10 +91,11 @@
 }
 
 .solution{
-    background-color: #2F303A;
-    background-image: url("./img/Group\ 5.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("./img/Group\ 5.png");
+    background-color: #2F303A66;
+    background-blend-mode: multiply;
 }
 
 .solution_container{
