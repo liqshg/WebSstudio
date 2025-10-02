@@ -172,7 +172,8 @@
 }
 
 .studio{
-    padding:94px 0 ;
+    padding-top: 94px;
+    padding-bottom: 252px;
 }
 
 .studio_info_container{
@@ -220,7 +221,7 @@
     width: 100%;
     margin: 0 auto;
     max-width: 1170px;
-    margin-top: 94px;
+    padding-top: 94px;
    
 }
 
@@ -240,9 +241,37 @@
     justify-content: space-between;
 }
 
+.studio_whatWeDo_container_card{
+    width: 100%;
+    max-width: 370px;    
+}
+
+.studio_whatWeDo_container_card-img{
+    width: 370px;
+    height: 294px;
+    position: relative;
+    position: absolute;
+}
+
+.studio_whatWeDo_container_card-text{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #2F303ACC;
+    padding: 27px 99px;
+    position: absolute;
+    position: relative;
+    top: 224px;
+}
 
 .team{
     background-color: #F5F4FA;
+    margin-top: 100px;
 }
 
 .team_title{
