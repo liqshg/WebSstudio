@@ -295,6 +295,31 @@
     font-size: 12px;
     line-height: 100%;
     letter-spacing: 1%;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+input:focus {
+  outline: none; 
+  border: none; 
+  border: 2px solid #2196F3;
+}
+
+textarea:focus {
+  outline: none; 
+  border: none; 
+  border: 2px solid #2196F3;
 }
 
 .modal_window-accept{
