@@ -1,0 +1,22 @@
+.header {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+
+    &_header {
+
+        &_container {
+            width: 100%;
+            max-width: 519px;
+            display: flex;
+
+            & img {
+                margin-right: 93px;
+            }
+        }
+    }
+}
