@@ -17,6 +17,107 @@
             & img {
                 margin-right: 93px;
             }
+
+            &-nav {
+                width: 100%;
+                max-width: 281px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &--link {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 2%;
+                    text-decoration: none;
+                    color: #212121;
+
+                    &:hover {
+                        color: #2196F3;
+                    }
+                }
+            }
+        }
+
+        &_content {
+            width: 100%;
+            max-width: 333px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-div1 {
+                width: 100%;
+                max-width: 161px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &:hover .header_header_content-div-img path {
+                    color: #2196F3;
+                    fill: #2196F3;
+                }
+
+                &-img path {
+                    fill: #757575;
+
+                    &:hover path {
+                        fill: #2196F3;
+                    }
+                }
+
+                &--email {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 2%;
+                    text-decoration: none;
+                    color: #757575;
+
+                    &:hover {
+                        color: #2196F3;
+                    }
+                }
+            }
+
+            &-div2 {
+                width: 100%;
+                max-width: 142px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &:hover .header_header_content-div-img path {
+                    color: #2196F3;
+                    fill: #2196F3;
+                }
+
+                &-img path {
+                    fill: #757575;
+
+                    &:hover path {
+                        fill: #2196F3;
+                    }
+                }
+
+                &--phone {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 100%;
+                    letter-spacing: 2%;
+                    text-decoration: none;
+                    color: #757575;
+
+                    &:hover {
+                        color: #2196F3;
+                    }
+                }
+
+            }
         }
     }
 }
