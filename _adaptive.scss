@@ -1,0 +1,105 @@
+@media (max-width: 1125px) {
+    body {
+        .header {
+            max-width: 738px;
+
+            &_header_content {
+                max-width: 138px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    }
+
+    main {
+
+        .studio_info_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            width: 100%;
+            max-width: 738px;
+
+            &_card {
+                max-width: 100%;
+                max-width: 354px;
+            }
+        }
+
+        .studio_whatWeDo {
+            display: none;
+        }
+
+
+        .solution_container {
+            max-width: 360px;
+
+            &--title {
+                font-family: Roboto;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 42px;
+                letter-spacing: 6%;
+                text-align: center;
+                text-transform: uppercase;
+                color: #ffffff;
+            }
+
+            &--button {
+                max-width: 200px;
+            }
+        }
+
+        .team_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 auto;
+            row-gap: 30px;
+            column-gap: 30px;
+            width: 100%;
+            max-width: 738px;
+
+            &--card{
+                width: 100%;
+                max-width: 354px;
+
+                &--img{
+                    width: 354px;
+                    height: 374px;
+                }
+            }
+        }
+
+        .clients_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+            width: 100%;
+            max-width: 738px;
+        }
+
+
+        .footer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            max-width: 603px;
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 480px) {
+    main {
+        .studio_info_container {
+            padding-top: 94px;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+    }
+
+}

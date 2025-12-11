@@ -109,6 +109,9 @@
 
                     &-input_input {
                         margin-bottom: 10px;
+                        padding: 11px 0 11px 30px;
+                        border: 1px solid #21212133;
+                        border-radius: 4px;
 
                         &:focus {
                             outline: none;
@@ -118,15 +121,18 @@
 
                         &-name1 {
                             background-image: url("./img/person-black-18dp\ 1\ \(1\).svg");
+                            background-repeat: no-repeat;
+                            background-position: 12px center;
 
-                            &:active,
-                            .modal_window-form-input_input-name1:focus {
+                            &:active .modal_window-form-input_input-name1:focus {
                                 background-image: url("./img/person-black-18dp\ 1\ \(2\).svg");
                             }
                         }
 
                         &-name2 {
                             background-image: url("./img/phone-black-18dp\ 1.svg");
+                            background-repeat: no-repeat;
+                            background-position: 12px center;
 
                             &:active,
                             .modal_window-form-input_input-name2:focus {
@@ -136,6 +142,8 @@
 
                         &-name3 {
                             background-image: url("./img/email-black-18dp\ 1.svg");
+                            background-repeat: no-repeat;
+                            background-position: 12px center;
 
                             &:active,
                             .modal_window-form-input_input-name3:focus {
@@ -238,7 +246,7 @@
 
 .studio {
     padding-top: 94px;
-    padding-bottom: 252px;
+    padding-bottom: 94px;
 
     &_info {
 
@@ -308,12 +316,11 @@
             &_card {
                 width: 100%;
                 max-width: 370px;
+                    position: relative;
 
                 &-img {
                     width: 370px;
                     height: 294px;
-                    position: relative;
-                    position: absolute;
                 }
 
                 &-text {
@@ -328,8 +335,9 @@
                     background-color: #2F303ACC;
                     padding: 27px 99px;
                     position: absolute;
-                    position: relative;
-                    top: 224px;
+                    bottom: 4px;
+                    left: 0;
+                    width: 370px;
                 }
             }
         }
@@ -338,7 +346,6 @@
 
 .team {
     background-color: #F5F4FA;
-    margin-top: 100px;
 
     &_title {
         font-family: Roboto;
@@ -418,6 +425,8 @@
                     &-svg path {
                         margin: 0 auto;
                         fill: #AFB1B8;
+
+                        
                     }
 
                     &:hover {
@@ -425,7 +434,7 @@
                         transition: 0.3s;
                     }
 
-                    :hover .team_container--card-apps-round-svg path {
+                    &:hover .team_container--card-apps-round-svg path {
                         fill: #FFFFFF;
                     }
 
