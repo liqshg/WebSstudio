@@ -29,6 +29,10 @@
                 width: 100%;
                 max-width: 354px;
 
+                &::after{
+                    padding: 50px 24px;
+                }
+
                 &--img {
                     width: 100%;
                     height: auto;
@@ -116,6 +120,13 @@
 
             &_header_container--nav {
                 display: none;
+            }
+        }
+
+        .menu-footer--socials{
+            
+            &--link{
+                font-size: 14px;
             }
         }
     }

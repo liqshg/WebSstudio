@@ -210,6 +210,8 @@
   justify-content: space-between;
   padding-top: 94px;
   padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .buttons_container--button {
   padding: 6px 22px;
@@ -512,6 +514,9 @@ footer {
     width: 100%;
     max-width: 354px;
   }
+  main .projects_container::after {
+    padding: 50px 24px;
+  }
   main .projects_container--img {
     width: 100%;
     height: auto;
@@ -574,6 +579,9 @@ footer {
   }
   body .header_header_container--nav {
     display: none;
+  }
+  body .menu-footer--socials--link {
+    font-size: 14px;
   }
   main .buttons_container {
     display: flex;

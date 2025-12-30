@@ -10,7 +10,10 @@
                 gap: 10px;
             }
 
-
+            &_header_container--nav--link::after{
+                    bottom: -36px;
+            }
+                
         }
     }
 
@@ -208,6 +211,13 @@
                 display: none;
             }
 
+        }
+
+        .menu-footer--socials{
+            
+            &--link{
+                font-size: 14px;
+            }
         }
     }
 
